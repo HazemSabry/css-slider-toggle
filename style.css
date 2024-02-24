@@ -4,3 +4,10 @@ input[type="checkbox"].toggle {
   left: -9000px;
   top: -9000px;
 }
+
+input[type="checkbox"].toggle + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
