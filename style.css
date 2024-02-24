@@ -60,3 +60,7 @@ input[type="checkbox"].toggle:disabled + label {
 input[type="checkbox"].toggle:disabled + label::before {
   background-color: #ccc;
 }
+
+input[type="checkbox"].toggle:disabled + label::after {
+  background-color: #777;
+}
