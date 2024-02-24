@@ -11,3 +11,13 @@ input[type="checkbox"].toggle + label {
   align-items: center;
   cursor: pointer;
 }
+
+input[type="checkbox"].toggle + label::before {
+  content: "";
+  width: 2em;
+  height: 1em;
+  background-color: hsl(0, 80%, 90%);
+  border-radius: 1em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
