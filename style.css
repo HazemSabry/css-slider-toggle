@@ -38,3 +38,7 @@ input[type="checkbox"].toggle + label::after {
   border-radius: 1em;
   transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
 }
+
+input[type="checkbox"].toggle:focus + label::before {
+  outline: 1px solid black;
+}
